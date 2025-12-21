@@ -66,6 +66,7 @@ export type WalletProviderFlags =
   | 'isSafeheron'
   | 'isSafePal'
   | 'isWigwam'
+  | 'isMeCoWallet'
   | '__seif';
 
 export type WalletProvider = Evaluate<
