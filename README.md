@@ -78,6 +78,20 @@ pnpm run dev
 
 Please follow our [contributing guidelines](/.github/CONTRIBUTING.md).
 
+## Custom Wallet Button Example
+
+```tsx
+import { ConnectButton } from '@rainbow-me/rainbowkit';
+
+export function CustomWalletButton() {
+  return (
+    <div>
+      <ConnectButton showBalance={false} />
+    </div>
+  );
+}
+
+
 ## License
 
 Licensed under the MIT License, Copyright © 2022-present [Rainbow](https://rainbow.me).
